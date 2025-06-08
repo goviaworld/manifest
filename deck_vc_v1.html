@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>GoVia - VC Pitch: Reimagining India's "Outside-Home" Digital Experience</title>
+    <meta name="description" content="Investment opportunity in GoVia, a Super App poised to revolutionize how Indians navigate, explore, and connect in their 'outside-home' lives, with a vision towards a task-oriented OS.">
+    <meta name="keywords" content="GoVia, Super App, VC Pitch, Investment, India, Mobile App, Travel Tech, Local Commerce, AI, Personalization, Operating System, Startup">
+    <meta name="author" content="GoVia World">
+
+    <!-- Canonical URL (UPDATE THIS WHEN HOSTED) -->
+    <link rel="canonical" href="https://goviaworld.github.io/manifest/vc-pitch.html"> 
+
+    <!-- Open Graph / Facebook Meta Tags (UPDATE IMAGES WHEN HOSTED) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://goviaworld.github.io/manifest/vc-pitch.html"> 
+    <meta property="og:title" content="GoVia - VC Pitch: Reimagining India's Digital Experience">
+    <meta property="og:description" content="Invest in GoVia: A Super App transforming India's 'outside-home' digital life, evolving into a task-oriented OS.">
+    <meta property="og:image" content="https://goviaworld.github.io/manifest/assets/govia-vc-og-image.png"> <!-- Placeholder - REPLACE -->
+    <meta property="og:site_name" content="GoVia World">
+
+    <!-- Twitter Card Meta Tags (UPDATE IMAGES WHEN HOSTED) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://goviaworld.github.io/manifest/vc-pitch.html"> 
+    <meta name="twitter:title" content="GoVia - VC Pitch: Reimagining India's Digital Experience">
+    <meta name="twitter:description" content="Invest in GoVia: A Super App transforming India's 'outside-home' digital life, evolving into a task-oriented OS.">
+    <meta name="twitter:image" content="https://goviaworld.github.io/manifest/assets/govia-vc-twitter-card-image.png"> <!-- Placeholder - REPLACE -->
+
+    <!-- Favicon (UPDATE PATHS WHEN HOSTED) -->
+    <link rel="icon" href="/manifest/assets/favicon.ico" sizes="any"> 
+    <link rel="icon" href="/manifest/assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/manifest/assets/apple-touch-icon.png"> 
+    <link rel="manifest" href="/manifest/assets/site.webmanifest"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* Paste the ENTIRE CSS block from the "DEFINITIVE HTML SLIDE DECK (Dark Mode - Screenshot-Inspired CSS & DYNAMIC EMOJIS) - PART 1 of approx. 4 (Full Regeneration)" here */
+        /* This is the ~400+ lines of CSS that includes dark mode, sidebar, progress bar, collapsible sections, sticky nav, etc. */
+        :root {
+            --bg-primary: #0d0618; 
+            --bg-secondary: #1a1030;   
+            --bg-accent: #231a44;     
+            
+            --slide-bg: rgba(26, 16, 48, 0.8); /* Slightly more opaque for pitch deck */
+            --slide-bg-opaque: #1a1030; 
+            --slide-border-glow: rgba(173, 77, 255, 0.4); /* More vibrant glow */
+            --slide-border-hard: rgba(120, 100, 170, 0.5);
+
+            --sidebar-bg: rgba(18, 10, 35, 0.92); /* More opaque sidebar */
+            --sidebar-border: rgba(173, 77, 255, 0.3);
+            --sidebar-width-desktop: 300px;
+
+            --text-primary: #f0e8ff;    
+            --text-secondary: #d8c8f0; 
+            --text-muted: #a090b8;
+            --text-heading-glow: rgba(0, 220, 255, 0.7); 
+            
+            --accent-pink-hex: #ff40a0; 
+            --accent-cyan-hex: #00e0ff; 
+            --accent-purple-hex: #be64ff; 
+
+            --accent-pink-rgb: 255, 64, 160;
+            --accent-cyan-rgb: 0, 224, 255;
+            --accent-purple-rgb: 190, 100, 255;
+            --text-primary-rgb: 240, 232, 255;
+            --text-secondary-rgb: 216, 200, 240; /* Adjusted for disabled button */
+
+            --font-family-main: 'Poppins', sans-serif;
+            --font-family-title: 'Orbitron', sans-serif; 
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; height: 100%; }
+
+        body {
+            font-family: var(--font-family-main);
+            background: linear-gradient(145deg, var(--bg-primary) 0%, var(--bg-secondary) 60%, var(--bg-accent) 100%);
+            color: var(--text-primary);
+            min-height: 100%; 
+            overflow-x: hidden; 
+            position: relative;
+        }
+        body::before { 
+            content: ""; position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%;
+            background-image: 
+                radial-gradient(circle at 15% 25%, rgba(var(--accent-purple-rgb), 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 75%, rgba(var(--accent-cyan-rgb), 0.08) 0%, transparent 40%);
+            background-size: 200% 200%; animation: subtlePattern 70s linear infinite alternate; 
+            opacity: 0.8; z-index: -1;
+        }
+        @keyframes subtlePattern { 0% { background-position: 0% 0%; } 100% { background-position: 100% 100%; } }
+        @keyframes subtlePulseGlow {0% { box-shadow: 0 0 8px rgba(var(--accent-cyan-rgb), 0.5), 0 0 12px rgba(var(--accent-pink-rgb), 0.3); opacity: 0.8;} 50% { box-shadow: 0 0 16px rgba(var(--accent-cyan-rgb), 0.8), 0 0 24px rgba(var(--accent-pink-rgb), 0.5); opacity: 1;} 100% { box-shadow: 0 0 8px rgba(var(--accent-cyan-rgb), 0.5), 0 0 12px rgba(var(--accent-pink-rgb), 0.3); opacity: 0.8;}}
+        @keyframes subtleGradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+        @keyframes emojiFloat { 0% {transform: translateY(0px) rotate(0deg);} 25% {transform: translateY(-2px) rotate(-3deg);} 75% {transform: translateY(1px) rotate(3deg);} 100% {transform: translateY(0px) rotate(0deg);} }
+        @keyframes slideTransition { 0% { opacity: 0; transform: scale(0.95) translateY(20px); } 100% { opacity: 1; transform: scale(1) translateY(0); } }
+        @keyframes expandLine { from { width: 0; } to { width: 25%; } }
+
+
+        .app-wrapper { display: flex; width: 100%; min-height: 100vh; }
+
+        /* Sidebar Styles */
+        .sidebar { width: var(--sidebar-width-desktop); background: var(--sidebar-bg); backdrop-filter: blur(18px) saturate(110%); -webkit-backdrop-filter: blur(18px) saturate(110%); border-right: 1.5px solid var(--sidebar-border); padding: 25px 0; height: 100vh; position: fixed; left: 0; top: 0; overflow-y: auto; z-index: 1000; transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 3px 0 25px rgba(0,0,0,0.5); }
+        .sidebar::-webkit-scrollbar { width: 8px; }
+        .sidebar::-webkit-scrollbar-thumb { background: rgba(var(--accent-purple-rgb),0.6); border-radius: 4px; }
+        .sidebar::-webkit-scrollbar-track { background: rgba(var(--accent-purple-rgb),0.15); }
+        .sidebar-header { padding: 0 25px 25px 25px; text-align: center; border-bottom: 1.5px solid var(--sidebar-border); margin-bottom: 25px; }
+        .sidebar-logo { font-family: var(--font-family-title); font-size: 2em; color: var(--text-primary); text-decoration: none; display: flex; align-items: center; justify-content: center; transition: color 0.3s ease; }
+        .sidebar-logo:hover { color: var(--accent-cyan-hex); }
+        .sidebar-logo i { margin-right: 12px; color: var(--accent-cyan-hex); text-shadow: 0 0 12px rgba(var(--accent-cyan-rgb),0.6); transition: transform 0.3s ease; }
+        .sidebar-logo:hover i { transform: rotate(15deg) scale(1.1); }
+        .sidebar-nav ul { list-style: none; padding: 0; }
+        .sidebar-nav .phase-group > span { display: flex; justify-content: space-between; align-items: center; padding: 12px 25px; font-weight: 700; color: var(--text-accent); text-transform: uppercase; font-size: 0.85em; letter-spacing: 1.2px; cursor: pointer; border-left: 4px solid transparent; transition: background-color 0.25s ease, border-left-color 0.25s ease, color 0.25s ease; }
+        .sidebar-nav .phase-group > span:hover { background-color: rgba(var(--accent-pink-rgb), 0.12); border-left-color: var(--accent-pink-hex); color: var(--accent-pink-hex); }
+        .sidebar-nav .phase-group > span .group-toggle-icon { transition: transform 0.3s ease-out; }
+        .sidebar-nav .phase-group.open > span .group-toggle-icon { transform: rotate(180deg); }
+        .sidebar-nav .slide-links { list-style: none; padding-left: 0; max-height: 0; overflow: hidden; transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), padding 0.5s cubic-bezier(0.4, 0, 0.2, 1); background-color: rgba(0,0,0,0.1); }
+        .sidebar-nav .phase-group.open .slide-links { max-height: 1500px; padding-top: 5px; padding-bottom: 5px; }
+        .sidebar-nav .slide-links li a { display: block; padding: 9px 25px 9px 40px; color: var(--text-secondary); text-decoration: none; font-size: 0.9em; transition: background-color 0.2s ease, color 0.2s ease, padding-left 0.2s ease, border-left-color 0.2s ease; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 4px solid transparent; position: relative; }
+        .sidebar-nav .slide-links li a::before { content: "•"; position: absolute; left: 25px; color: rgba(var(--accent-cyan-rgb),0.5); transition: color 0.2s ease; }
+        .sidebar-nav .slide-links li a:hover { background-color: rgba(var(--accent-cyan-rgb), 0.12); color: var(--accent-cyan-hex); padding-left: 45px; border-left-color: var(--accent-cyan-hex); }
+        .sidebar-nav .slide-links li a:hover::before { color: var(--accent-cyan-hex); }
+        .sidebar-nav .slide-links li a.active-slide-link { background-color: rgba(var(--accent-pink-rgb), 0.2); color: var(--accent-pink-hex); font-weight: 600; border-left-color: var(--accent-pink-hex); }
+        .sidebar-nav .slide-links li a.active-slide-link::before { color: var(--accent-pink-hex); }
+
+        .hamburger-menu { display: none; position: fixed; top: 15px; left: 15px; background: rgba(var(--accent-purple-rgb), 0.6); backdrop-filter: blur(8px); border: 1.5px solid rgba(var(--accent-purple-rgb), 0.8); color: var(--text-primary); font-size: 1.6em; padding: 10px 14px; border-radius: 10px; cursor: pointer; z-index: 1002; transition: background-color 0.2s ease, transform 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .hamburger-menu:hover { background: rgba(var(--accent-pink-rgb), 0.7); transform: scale(1.05); }
+        .hamburger-menu.open i::before { content: "\f00d"; }
+
+        .main-content { flex-grow: 1; margin-left: var(--sidebar-width-desktop); padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; min-height: 100vh; transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+        
+        .progress-bar-container { width: calc(100% - 40px); max-width: 1000px; height: 10px; background-color: rgba(var(--accent-purple-rgb), 0.2); border-radius: 5px; margin: 10px auto 20px auto; overflow: hidden; box-shadow: inset 0 1px 4px rgba(0,0,0,0.4); position: sticky; top: 10px; z-index: 900; }
+        .progress-bar { height: 100%; width: 0%; background: linear-gradient(90deg, var(--accent-pink-hex), var(--accent-cyan-hex) 70%, var(--accent-purple-hex) 100%); border-radius: 5px; transition: width 0.4s ease-out; animation: subtlePulseGlow 2.5s ease-in-out infinite; }
+
+        .slide-container { width: 100%; max-width: 1000px; flex-grow: 1; min-height: 0; background: var(--slide-bg); backdrop-filter: blur(22px) saturate(130%); -webkit-backdrop-filter: blur(22px) saturate(130%); border-radius: 26px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.75), inset 0 0 0 1.5px var(--slide-border-hard), inset 0 0 120px rgba(var(--accent-pink-rgb),0.04); position: relative; display: flex; flex-direction: column; border: 1.5px solid var(--slide-border-glow); }
+        .slides-wrapper { flex-grow: 1; overflow-y: auto; min-height: 0; }
+        .slides-wrapper::-webkit-scrollbar { width: 12px; }
+        .slides-wrapper::-webkit-scrollbar-thumb { background: linear-gradient(180deg, var(--accent-pink-hex), var(--accent-purple-hex)); border-radius: 6px; border: 3px solid var(--slide-bg-opaque); background-clip: padding-box; }
+        .slides-wrapper::-webkit-scrollbar-track { background: rgba(var(--accent-purple-rgb), 0.08); border-radius: 6px; }
+        .slide { padding: 30px 40px; display: none; position: relative; }
+        .slide.active { display: block; animation: slideTransition 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+        
+        .slide-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid var(--slide-border-glow); position: relative; }
+        .slide-header::after { content: ''; position: absolute; left: 0; bottom: -1px; width: 0%; height: 3px; background: linear-gradient(90deg, var(--accent-pink-hex) 0%, var(--accent-cyan-hex) 50%, var(--accent-pink-hex) 100%); background-size: 200% 100%; border-radius: 3px; transition: width 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s; animation: subtleGradientShift 4s ease-in-out infinite alternate 0.2s, subtlePulseGlow 2.8s ease-in-out infinite 0.3s; }
+        .slide.active .slide-header::after { width: 220px; } 
+
+        .slide-title { font-family: var(--font-family-title); font-size: 2.4em;  color: var(--text-primary); font-weight: 900; letter-spacing: 1.2px; text-shadow: 0 0 8px var(--text-heading-glow), 0 0 12px var(--text-heading-glow), 0 0 18px rgba(var(--accent-cyan-rgb),0.4), 0 0 25px rgba(var(--accent-cyan-rgb),0.3); margin-bottom: 0; border-bottom: none; flex-grow:1; }
+        .slide-title-main { /* For VC Deck Title Slide */ text-align:center; border-bottom: none; margin-top: 50px; font-size: 3em; line-height: 1.2; }
+        .slide-subtitle { font-family: var(--font-family-main); font-size: 1.5em;  color: var(--text-secondary);  margin: 15px auto 30px auto; text-align: center; font-weight: 300; max-width: 80%;}
+        .slide-subtitle.deck-subtitle { font-family: var(--font-family-title); font-size:1.7em; color: var(--accent-cyan-hex); font-weight:600; margin-top:0px;}
+
+
+        .top-right-icon-container { width: 55px; height: 55px; background-color: rgba(var(--accent-cyan-rgb), 0.12); border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.8em;  color: var(--accent-cyan-hex); box-shadow: 0 0 15px rgba(var(--accent-cyan-rgb), 0.4), inset 0 0 8px rgba(var(--accent-cyan-rgb),0.25), 0 0 0 2px rgba(var(--accent-cyan-rgb),0.3); margin-left: 25px;  flex-shrink: 0;  transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .top-right-icon-container:hover { transform: scale(1.1); box-shadow: 0 0 20px rgba(var(--accent-cyan-rgb), 0.6), inset 0 0 10px rgba(var(--accent-cyan-rgb),0.3), 0 0 0 3px rgba(var(--accent-cyan-rgb),0.5); }
+        
+        .main-icons-title-slide {  text-align: center; font-size: 4.5em;  margin: 25px auto; line-height: 1.2; display: flex;  justify-content: center; align-items: center; gap: 30px; }
+        .main-icons-title-slide .primary-icon i, .main-icons-title-slide .secondary-icon i { transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), text-shadow 0.3s ease; }
+        .main-icons-title-slide .primary-icon i {  color: var(--accent-pink-hex); text-shadow: 0 0 30px rgba(var(--accent-pink-rgb), 0.7); }
+        .main-icons-title-slide .primary-icon:hover i { transform: scale(1.2) rotate(10deg); text-shadow: 0 0 40px rgba(var(--accent-pink-rgb), 1); }
+        .main-icons-title-slide .secondary-icon i { font-size: 0.65em; opacity: 0.8; color: var(--accent-cyan-hex); text-shadow: 0 0 22px rgba(var(--accent-cyan-rgb), 0.7); display: inline-block;  transform: rotate(-20deg); }
+        .main-icons-title-slide .secondary-icon:hover i { transform: scale(1.2) rotate(0deg); text-shadow: 0 0 30px rgba(var(--accent-cyan-rgb), 1); }
+
+        .slide-content h3 { font-family: var(--font-family-main);  font-size: 1.5em;  color: var(--accent-cyan-hex);  font-weight: 600;  padding-bottom: 10px; margin-top: 25px; margin-bottom: 20px; border-bottom: none;  position: relative; display: inline-block; letter-spacing: 0.4px; }
+        .slide-content h3::after {  content: ''; position: absolute; left: 0; bottom: -2px;  width: 100%; height: 2.5px; background: linear-gradient(90deg, var(--accent-pink-hex) 0%, var(--accent-cyan-hex) 100%); border-radius: 1.5px; box-shadow: 0 0 8px rgba(var(--accent-cyan-rgb),0.4); }
+        
+        .collapsible-section { margin-top: 20px; }
+        .collapsible-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding: 10px 5px; border-bottom: 1px solid rgba(var(--accent-purple-rgb), 0.2); transition: background-color 0.2s ease, padding-left 0.2s ease; border-radius: 5px; }
+        .collapsible-header:hover { background-color: rgba(var(--accent-purple-rgb), 0.08); padding-left:10px; }
+        .collapsible-header h4 { font-family: var(--font-family-main); font-size: 1.2em; color: var(--text-accent); margin:0; font-weight: 500; border-bottom:none; }
+        .collapsible-header h4::after { display:none; }
+        .collapsible-header h4 i { font-size: 0.9em; margin-right: 10px; opacity: 0.85; color: var(--accent-pink-hex); }
+        .collapsible-header:hover h4, .collapsible-header:hover .toggle-icon { color: var(--accent-cyan-hex); }
+        .collapsible-header:hover h4 i {color: var(--accent-cyan-hex);}
+        .toggle-icon { font-size: 1em; color: var(--text-accent); transition: transform 0.3s ease-out, color 0.2s ease; }
+        .collapsible-header .toggle-icon i.fa-chevron-up { transform: rotate(180deg); } 
+        .collapsible-content { max-height: 0; overflow: hidden; transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease-out, transform 0.4s ease-out, padding 0.4s ease-out, margin 0.4s ease-out; opacity: 0; transform: translateY(-10px); padding-left: 20px; border-left: 3px solid rgba(var(--accent-purple-rgb), 0.3); margin-left: 5px; margin-top:5px; }
+        .collapsible-content.open { max-height: 3000px; opacity: 1; transform: translateY(0); padding-top: 15px; margin-bottom: 20px; }
+        
+        .slide-content ul { list-style: none; padding-left: 10px; margin-top: 15px; }
+        .slide-content ul li { margin-bottom: 12px;  line-height: 1.75;  padding-left: 30px; position: relative; transition: color 0.2s ease-in-out; }
+        .slide-content ul li:hover { color: var(--text-primary); }
+        .slide-content ul li::before {  font-family: "Font Awesome 6 Free"; content: '\f058'; font-weight: 900; position: absolute; left: 0px;  top: 4px; color: var(--accent-pink-hex);  font-size: 1.1em; transition: transform 0.2s ease-in-out, color 0.2s ease-in-out; }
+        .slide-content ul li:hover::before { transform: scale(1.1); color: var(--accent-cyan-hex); }
+        .slide-content ul li strong { color: var(--text-primary);  font-weight: 600; } /* Bolder strong */
+        .slide-content ul li .emoji-bullet {  margin-left: 8px;  font-size: 1em;  vertical-align: middle; display: inline-block;  transition: transform 0.2s ease; animation: emojiFloat 3s ease-in-out infinite alternate; }
+        .slide-content ul li:hover .emoji-bullet { transform: scale(1.2); }
+        
+        .slide-content p { line-height: 1.8;  margin-bottom: 18px;  font-size: 1rem; /* Base paragraph size */ }
+        .slide-content .highlight-text { color: var(--accent-purple-hex); font-weight: 600; }
+        .slide-content .quote { font-style: italic; color: var(--text-accent); padding: 20px; margin: 25px 0; border-left: 4px solid var(--accent-purple-hex); background: rgba(var(--accent-purple-rgb), 0.08); border-radius: 0 10px 10px 0; box-shadow: 3px 3px 10px rgba(0,0,0,0.2); }
+        .slide-content .quote p { margin-bottom: 0; }
+
+        .two-column-layout { display: flex; gap: 35px; margin-top: 25px; }
+        .column { flex: 1; }
+        .column ul li { font-size: 0.95em; }
+
+
+        .slide-content .tech-hints { font-style: normal;  font-size: 0.95rem;  color: var(--text-secondary);  background: rgba(var(--accent-purple-rgb), 0.18);  border-left: 5px solid var(--accent-purple-hex); padding: 15px 20px;  margin-top: 25px; border-radius: 10px;  box-shadow: inset 0 2px 5px rgba(0,0,0,0.3), 0 2px 4px rgba(var(--accent-purple-rgb),0.15); }
+        .slide-content .tech-hints strong { color: var(--accent-purple-hex); font-weight: 600; }
+        .slide-content .tech-hints i {  margin-right: 10px; font-size: 1.1em; }
+
+        .watermark { position: absolute; bottom: 18px;  left: 50%;  transform: translateX(-50%); font-family: var(--font-family-title); font-size: 0.8em;  color: rgba(var(--text-primary-rgb), 0.035);  font-weight: 900;  pointer-events: none;  z-index: -1;  text-transform: uppercase; letter-spacing: 5px;  }
+        
+        .navigation { padding: 18px 40px; background: var(--slide-bg-opaque); border-top: 1.5px solid var(--slide-border-glow); display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; width: 100%; z-index: 100; }
+        
+        .slide-bottom-nav { display: flex; justify-content: space-between; align-items: center; padding-top: 25px; margin-top: 35px; border-top: 1px solid var(--slide-border); }
+        .slide-bottom-nav .nav-button-inline { background: rgba(var(--accent-purple-rgb), 0.25); color: var(--text-secondary); border: 1px solid var(--slide-border-glow); padding: 10px 20px; border-radius: 8px; cursor: pointer; font-size: 0.95em; font-weight: 500; transition: all 0.2s ease-out; text-transform: uppercase; letter-spacing: 0.5px; }
+        .slide-bottom-nav .nav-button-inline:hover { background: rgba(var(--accent-pink-rgb), 0.35); color: var(--accent-pink-hex); border-color: var(--accent-pink-hex); transform: translateY(-2px); box-shadow: 0 3px 8px rgba(var(--accent-pink-rgb),0.2); }
+        .slide-bottom-nav .nav-button-inline:disabled { background: rgba(var(--text-secondary-rgb), 0.1); color: rgba(var(--text-secondary-rgb), 0.4); cursor: not-allowed; border-color: transparent; transform: translateY(0); box-shadow: none; }
+        .slide-bottom-nav .nav-button-inline i { margin: 0 5px; }
+
+        .nav-button { background: linear-gradient(145deg, var(--accent-pink-hex) 0%, var(--accent-purple-hex) 100%); color: var(--text-primary);  border: 1px solid rgba(var(--accent-pink-rgb),0.5);  padding: 12px 28px;  border-radius: 10px;  cursor: pointer; font-size: 1.05em;  font-weight: 700;  transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);  box-shadow: 0 6px 12px rgba(var(--accent-pink-rgb), 0.25), 0 0 15px rgba(var(--accent-purple-rgb), 0.15), inset 0 0 3px rgba(255,255,255,0.1);  text-transform: uppercase; letter-spacing: 1px; }
+        .nav-button:hover { transform: translateY(-3px) scale(1.04); box-shadow: 0 8px 18px rgba(var(--accent-pink-rgb), 0.4), 0 0 25px rgba(var(--accent-purple-rgb), 0.3), inset 0 0 5px rgba(255,255,255,0.15); }
+        .nav-button:active { transform: translateY(-1px) scale(1.01);  box-shadow: 0 4px 10px rgba(var(--accent-pink-rgb), 0.3), 0 0 15px rgba(var(--accent-purple-rgb), 0.2), inset 0 0 5px rgba(255,255,255,0.15); }
+        .nav-button:disabled { background: rgba(var(--text-secondary-rgb), 0.2);  color: rgba(var(--text-secondary-rgb), 0.7); cursor: not-allowed; transform: translateY(0) scale(1); box-shadow: none; border-color: rgba(var(--text-secondary-rgb), 0.2); }
+        
+        .slide-number { font-size: 0.95em; color: var(--text-secondary);  font-weight: 500; }
+
+        @media (max-width: 768px) {
+            .sidebar { transform: translateX(-100%); width: 280px; box-shadow: 5px 0 15px rgba(0,0,0,0.5); padding-top: 70px; }
+            .sidebar.open { transform: translateX(0); }
+            .main-content { margin-left: 0; padding: 10px; }
+            .hamburger-menu { display: flex; justify-content: center; align-items: center; }
+            .slide-container { height: calc(100vh - 60px); border-radius: 15px; }
+            .slides-wrapper { padding-bottom: 10px; } 
+            .slide { padding: 20px 25px; }
+            .slide-title { font-size: 1.8em; }
+            .top-right-icon-container { font-size: 1.5em; width: 45px; height: 45px; }
+            .slide-content h3 { font-size: 1.3em; }
+            .progress-bar-container { width: calc(100% - 20px); top: 5px; margin-bottom: 10px; }
+            .navigation { padding: 12px 20px; }
+            .nav-button { padding: 10px 20px; font-size: 0.95em;}
+            .slide-bottom-nav { margin-top: 20px; padding-top: 15px; }
+            .slide-bottom-nav .nav-button-inline { font-size: 0.85em; padding: 8px 15px; }
+        }
+
+        /* Additional styles for VC Deck specific content */
+        .vc-deck-section .slide-title { font-size: 2.6em; }
+        .vc-deck-section .slide-content p { font-size: 1.1em; }
+        .vc-deck-section .slide-content ul li { font-size: 1.05em; }
+        .vc-deck-section .value-prop {
+            background: rgba(var(--accent-cyan-rgb), 0.1);
+            border-left: 4px solid var(--accent-cyan-hex);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .vc-deck-section .value-prop strong { color: var(--accent-cyan-hex); }
+        .vc-deck-section .metric-highlight {
+            font-size: 1.8em;
+            font-family: var(--font-family-title);
+            color: var(--accent-pink-hex);
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            font-weight: 700;
+            text-shadow: 0 0 10px rgba(var(--accent-pink-rgb), 0.5);
+        }
+        .vc-deck-section .team-member {
+             background: rgba(var(--slide-bg-opaque), 0.5);
+             padding: 15px;
+             border-radius: 10px;
+             margin-bottom: 15px;
+             border: 1px solid var(--slide-border);
+        }
+        .vc-deck-section .team-member h5 {
+            font-size: 1.2em;
+            color: var(--text-accent);
+            margin-bottom: 5px;
+        }
+         .vc-deck-section .ask-amount {
+            font-family: var(--font-family-title);
+            font-size: 3em;
+            color: var(--accent-cyan-hex);
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: 900;
+            text-shadow: 0 0 15px rgba(var(--accent-cyan-rgb),0.7);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="app-wrapper">
+        <nav class="sidebar" id="sidebarNav">
+            <div class="sidebar-header">
+                <a href="#" class="sidebar-logo" onclick="navigateToSlide(1); closeSidebar(); return false;">
+                    <i class="fas fa-rocket"></i> GoVia Pitch
+                </a>
+            </div>
+            <div class="sidebar-nav" id="sidebarNavContent">
+                <!-- Dynamic content will be injected here by JavaScript -->
+            </div>
+        </nav>
+
+        <button class="hamburger-menu" id="hamburgerMenu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <main class="main-content" id="mainContentArea">
+            <div class="progress-bar-container" id="progressBarContainer">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <div class="slide-container" id="slideContainer">
+                <div class="slides-wrapper" id="slidesWrapper"> 
+                                    <!-- Slide 1: Title Slide - Enriched (VC DECK) -->
+                <div class="slide active" id="slide-1" data-title="GoVia: Our Vision" data-phase-group="1. Introduction">
+                    <div class="watermark">govia.world</div>
+                    <div style="text-align: center; padding-top: 15px;"> 
+                        <div class="main-icons-title-slide" style="font-size: 4em; margin-bottom: 10px;"> 
+                            <span class="primary-icon"><i class="fas fa-bullseye-pointer"></i></span> <!-- Changed to a more "vision" icon -->
+                            <i class="fas fa-long-arrow-alt-right" style="font-size: 0.5em; color: var(--text-secondary); align-self: center;"></i>
+                            <span class="secondary-icon"><i class="fas fa-infinity"></i></span> 
+                        </div>
+                        <h1 class="slide-title" style="text-align:center; border-bottom: none; font-size: 2.8em; line-height: 1.1; margin-bottom: 5px;">
+                            GoVia
+                        </h1>
+                        <h2 class="slide-subtitle deck-subtitle" style="font-size:1.4em; margin-top: 0px; letter-spacing: 1px; margin-bottom: 20px;">
+                            Reimagining India's "Outside-Home" Digital Experience
+                        </h2>
+                        
+                        <div style="margin-top: 20px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                            <div class="collapsible-section">
+                                <div class="collapsible-header" onclick="toggleCollapsible(this)" style="border-bottom: none;">
+                                    <h4 style="font-size: 1.3em; color: var(--accent-pink-hex); width:100%; text-align:center;">
+                                        <i class="fas fa-binoculars" style="margin-right: 8px;"></i>Our Vision Statement
+                                    </h4>
+                                    <!-- <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span> -->
+                                </div>
+                                <div class="collapsible-content open" style="max-height: none; opacity:1; transform: translateY(0); border-left:none; padding-left:0; margin-left:0;"> <!-- Open by default, no border -->
+                                    <p style="font-size: 1.05em; color: var(--text-primary); line-height: 1.6; text-align: center; font-style: italic; padding: 5px 10px; background: rgba(var(--accent-pink-rgb), 0.05); border-radius: 8px;">
+                                        "To be the indispensable AI-powered companion that seamlessly orchestrates every facet of life outside the home, empowering individuals to navigate, explore, and connect with their world more intelligently, efficiently, and joyfully."
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; justify-content: space-around; margin-top: 25px; gap: 20px;">
+                                <div style="flex: 1;">
+                                    <h4 style="color: var(--accent-cyan-hex); font-size: 1.1em; margin-bottom: 5px; font-family: var(--font-family-main); font-weight:600; text-align:center;">
+                                        <i class="fas fa-quote-left" style="margin-right: 8px;"></i>Our Motto
+                                    </h4>
+                                    <p style="font-size: 1em; color: var(--text-secondary); line-height: 1.5; text-align: center; font-weight: 500;">
+                                        Your World, Your Way.<br>Navigate. Explore. Connect.
+                                    </p>
+                                </div>
+                                <div style="flex: 1;">
+                                    <h4 style="color: var(--accent-purple-hex); font-size: 1.1em; margin-bottom: 5px; font-family: var(--font-family-main); font-weight:600; text-align:center;">
+                                        <i class="fas fa-hands-helping" style="margin-right: 8px;"></i>Our Commitment
+                                    </h4>
+                                    <p style="font-size: 1em; color: var(--text-secondary); line-height: 1.5; text-align: center; font-weight:500;">
+                                        To build a trusted, user-centric platform that simplifies complexity and enriches daily life for every Indian.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="font-family: var(--font-family-title); font-size: 1.1em; margin-top: 30px; color: var(--text-accent); text-align:center;">
+                            govia.world
+                        </p>
+                    </div>
+                    <div class="slide-bottom-nav" style="position: absolute; bottom: 30px; left: 40px; right: 40px; border-top:none;">
+                        <button class="nav-button-inline prev-inline-btn" style="visibility: hidden;"> 
+                            <i class="fas fa-arrow-left"></i> Prev
+                        </button>
+                        <button class="nav-button-inline next-inline-btn">
+                            Explore Our Vision <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                    <!-- SLIDE 2: The Problem -->
+                    <div class="slide vc-deck-section" id="slide-2" data-title="The Problem" data-phase-group="1. Introduction">
+                        <div class="watermark">govia.world</div>
+                        <div class="slide-header">
+                            <h2 class="slide-title">The Problem: India's Digital Maze <i class="fas fa-map-lost" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                            <div class="top-right-icon-container"><i class="fas fa-exclamation-triangle"></i></div>
+                        </div>
+                        <div class="slide-content">
+                            <p>India's rapid digital adoption has led to a paradox: an explosion of apps creating a <strong class="highlight-text">fragmented, inefficient, and often frustrating "outside-home" digital experience</strong> for hundreds of millions.</p>
+                            
+                            <div class="collapsible-section">
+                                <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                    <h4><i class="fas fa-puzzle-piece"></i>Core User Pain Points</h4>
+                                    <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                                </div>
+                                <div class="collapsible-content open">
+                                    <ul>
+                                        <li><strong>App Overload & Fatigue:</strong> Users juggle <strong>15-20+ apps</strong> for daily tasks like commute <span class="emoji-bullet">🚕</span>, travel planning <span class="emoji-bullet">✈️</span>, local discovery <span class="emoji-bullet">🍽️</span>, and social activities <span class="emoji-bullet">🎉</span>.</li>
+                                        <li><strong>Resource Drain:</strong> This app clutter consumes significant device storage <span class="emoji-bullet">💾</span>, RAM, and critically, battery life <span class="emoji-bullet">🔋</span>, degrading device performance.</li>
+                                        <li><strong>Cognitive Burden:</strong> Constant context-switching between apps with disparate UIs leads to inefficiency and mental fatigue. <span class="emoji-bullet">🤯</span></li>
+                                        <li><strong>Data Silos:</strong> Valuable user context and preferences are trapped within individual apps, preventing truly holistic and anticipatory personalization. <span class="emoji-bullet">🧱</span></li>
+                                        <li><strong>Discovery Paralysis:</strong> Finding the *right* service or information for an "outside-home" need can be a time-consuming search across multiple platforms. <span class="emoji-bullet">⏳</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="quote">"I have three different map apps, two ride-hailing apps, multiple food delivery and travel booking apps. It's exhausting just managing them, let alone using them together." - Typical Urban Indian Smartphone User.</p>
+                        </div>
+                        <div class="slide-bottom-nav">
+                            <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                            <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    
+                    <!-- SLIDE 3: Our Solution: GoVia Super App -->
+                    <div class="slide vc-deck-section" id="slide-3" data-title="Our Solution: GoVia" data-phase-group="1. Introduction">
+                        <div class="watermark">govia.world</div>
+                        <div class="slide-header">
+                            <h2 class="slide-title">Our Solution: The GoVia Super App <i class="fas fa-magic" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                            <div class="top-right-icon-container"><i class="fas fa-lightbulb-on"></i></div>
+                        </div>
+                        <div class="slide-content">
+                            <p>GoVia is architected as an **intelligent, AI-powered Super App** designed to be the single, indispensable companion for every Indian's "outside-home" life. We simplify complexity by unifying essential services into one seamless, intuitive, and hyper-personalized platform. <span class="emoji-bullet">🇮🇳</span><span class="emoji-bullet">✨</span></p>
+                            
+                            <div class="collapsible-section">
+                                <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                    <h4><i class="fas fa-cogs"></i>Core Value Propositions</h4>
+                                    <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                                </div>
+                                <div class="collapsible-content open">
+                                    <ul>
+                                        <li><strong>Unified Experience <i class="fas fa-layer-group"></i>:</strong> One app for planning travel, daily commutes, discovering local events & activities, making reservations, accessing hyperlocal services, and engaging with communities.</li>
+                                        <li><strong>AI-Driven Hyper-Personalization <i class="fas fa-brain"></i>:</strong> "GoVia Concierge" and "For You" feeds understand user intent, context (location, time, weather, history via "Travel DNA"), and preferences to deliver proactive, relevant suggestions and orchestrate tasks.</li>
+                                        <li><strong>Seamless Task Completion <i class="fas fa-tasks"></i>:</strong> Move from ideation to booking to experience without leaving the GoVia ecosystem. Reduced friction, enhanced productivity.</li>
+                                        <li><strong>Resource Efficiency <i class="fas fa-leaf"></i>:</strong> By consolidating functionalities, GoVia aims to reduce the overall resource burden on user devices compared to using multiple standalone apps.</li>
+                                        <li><strong>Community & Local Focus <i class="fas fa-users"></i>:</strong> Deep integration of local content, services, and community interactions tailored for the Indian context.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                             <p class="value-prop" style="margin-top:25px;">
+                                <strong>GoVia's Microservice Architecture:</strong> The robust, scalable, and adaptable microservice foundation (detailed in our technical appendix/deck) allows for rapid iteration, integration of new services, and the evolution towards our larger OS vision.
+                            </p>
+                        </div>
+                        <div class="slide-bottom-nav">
+                            <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                            <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                <!-- END OF SLIDES FOR THIS PART -->
+                                <!-- 
+                    ============================================================
+                    VC PITCH DECK SLIDES - BATCH 2
+                    (Slides 4-6)
+                    ============================================================
+                -->
+
+                <!-- SLIDE 4: Market Opportunity - India's Digital Frontier -->
+                <div class="slide vc-deck-section" id="slide-4" data-title="Market Opportunity" data-phase-group="2. Opportunity & Product">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Market Opportunity: India's Digital Ascent <i class="fas fa-chart-line" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-rupee-sign"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>India's digital economy is experiencing explosive growth, creating an unprecedented opportunity for a dominant "Outside-Home" Super App tailored to its unique consumer base. <span class="emoji-bullet">🇮🇳</span><span class="emoji-bullet">📈</span></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-users"></i> Key Market Drivers & Statistics</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open"> <!-- Open by default -->
+                                <ul>
+                                    <li><strong>Massive & Growing User Base:</strong> Over <strong class="highlight-text">750 million+ smartphone users</strong>, projected to exceed 1 billion by 2026-2027. A significant portion are young, mobile-first, and increasingly digitally transacting. <span class="emoji-bullet">📱</span></li>
+                                    <li><strong>Rapid Urbanization & Aspiration:</strong> Increasing urban populations with rising discretionary incomes are spending more on travel <span class="emoji-bullet">✈️</span>, leisure <span class="emoji-bullet">🎉</span>, dining out <span class="emoji-bullet">🍽️</span>, and local experiences.</li>
+                                    <li><strong>Digital Payment Proliferation:</strong> Widespread adoption of UPI and other digital payment methods (<strong class="highlight-text">>260 Billion UPI transactions in 2023</strong>) has created a frictionless foundation for in-app commerce and service bookings. <span class="emoji-bullet">💳</span></li>
+                                    <li><strong>"Super App" Affinity:</strong> Indian users have shown a strong preference for consolidated "Super App" models that offer convenience and a wide range of services under one umbrella (e.g., a few dominant players in specific verticals). <span class="emoji-bullet">🌟</span></li>
+                                    <li><strong>Untapped "Outside-Home" Niche:</strong> While some apps address specific verticals, there's a significant underserved market for a truly integrated Super App focused holistically on the entire "outside-home" journey – from daily commute to international travel. <span class="emoji-bullet">🎯</span></li>
+                                    <li><strong>Mobile Data Accessibility:</strong> Affordable mobile data plans have made internet access ubiquitous, driving app usage. <span class="emoji-bullet">📶</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-bullseye"></i> Target Addressable Market (TAM)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <p>Our initial focus is on the digitally active urban and semi-urban population in India engaged in frequent travel, daily commuting, local commerce, and social activities.</p>
+                                <ul>
+                                    <li><strong>Total Digital Users in India:</strong> ~800 Million+</li>
+                                    <li><strong>Serviceable Addressable Market (SAM - Phase 1-2 Focus):</strong> Targeting the ~300-400 Million users in Tier 1 & Tier 2 cities who actively use multiple apps for outside-home needs.</li>
+                                    <li><strong>Serviceable Obtainable Market (SOM - Initial 3-5 Years):</strong> Aiming to capture a significant share, e.g., <strong class="highlight-text">30-50 Million active users</strong>, demonstrating strong product-market fit and network effects.</li>
+                                </ul>
+                                <p class="quote">The Indian "Outside-Home" digital services market is valued at tens of billions of USD annually, with substantial room for growth and consolidation by an intelligent, user-centric Super App.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- SLIDE 5: Product Vision & Roadmap -->
+                <div class="slide vc-deck-section" id="slide-5" data-title="Product Vision & Roadmap" data-phase-group="2. Opportunity & Product">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Product Vision & Phased Roadmap <i class="fas fa-road" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-map-signs"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>GoVia's product vision unfolds through a strategic, phased roadmap, starting with an MMVP to validate core hypotheses and progressively layering on features to build the ultimate "Outside-Home" Super App, with a long-term ambition to redefine the user-device interaction paradigm. <span class="emoji-bullet">🗺️</span><span class="emoji-bullet">➡️</span><span class="emoji-bullet">🚀</span></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-flag"></i> Phase 0: MMVP (Target: Next 6-9 Months) – Smart Travel Ideas & Basic Organizer</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <p><strong>Goal:</strong> Validate core technology, establish initial user acquisition channels, achieve early user engagement, and collect foundational data.</p>
+                                <ul>
+                                    <li><strong>Core Functionalities:</strong> Secure User Authentication <span class="emoji-bullet">🔑</span>, GeoIP-based Context <span class="emoji-bullet">📍</span>, Keyword Destination Search (Cities) <span class="emoji-bullet">🔍</span>, Basic Destination Suggestions & Info Display (with placeholder data for some elements).</li>
+                                    <li><strong>Key Outcomes:</strong> Prove technical feasibility of the microservice architecture; gather insights on user search behavior and travel interests; build an initial user base.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-cogs"></i> Phase 1 (Target: 9-18 Months Post-MMVP) – Personalized Trip Planner & Core Engagement</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <p><strong>Goal:</strong> Transform from simple "ideas" to active trip planning; significantly increase user utility and daily engagement; introduce early, non-intrusive monetization channels.</p>
+                                <ul>
+                                    <li><strong>Core Functionalities:</strong> Enhanced Destination Search (GeoNames) <span class="emoji-bullet">🌍</span>, Personalized Scoring (`GoVia-o-meter` V1 integrating weather, basic crowd/cost estimates, user preferences) <span class="emoji-bullet">🎯</span>, "My Trips" CRUD & Itinerary Builder <span class="emoji-bullet">✈️</span>, Currency Conversion <span class="emoji-bullet">💱</span>, Calendar Export <span class="emoji-bullet">📅</span>, Transactional Emails, User Search History, Basic In-App Trip Co-planning Chat <span class="emoji-bullet">💬</span>, Curated Local Guides <span class="emoji-bullet">📚</span>, Basic Offline Mode for trips/guides.</li>
+                                    <li><strong>Key Outcomes:</strong> Demonstrate strong user retention; validate personalization effectiveness; achieve initial affiliate revenue; build a richer dataset for future AI development.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-infinity"></i> Phase 100 & Beyond (Long-Term Vision) – The Hyper-Personalized Super App & GoViaOS</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <p><strong>Goal:</strong> Become the indispensable digital companion for every aspect of "outside-home" life, leveraging deep AI, a comprehensive service ecosystem, and potentially evolving into a new task-oriented Operating System (GoViaOS) with dedicated hardware.</p>
+                                <ul>
+                                    <li><strong>Key Verticals:</strong> AI Concierge <span class="emoji-bullet">🤖</span>, Full Mobility Hub (ride-hailing, public transit, EV) <span class="emoji-bullet">🚗</span><span class="emoji-bullet">🚌</span>, Local Experiences & Events Platform <span class="emoji-bullet">🎉</span>, GoVia Marketplace <span class="emoji-bullet">🛍️</span>, Advanced GoVia Pay & Financial Services <span class="emoji-bullet">💰</span>, Rich Content & Media Hub <span class="emoji-bullet">🎬</span><span class="emoji-bullet">🎙️</span>, Thriving Community Features <span class="emoji-bullet">🤝</span>, Advanced Platform Services (IoT, Voice, Mini-Apps) <span class="emoji-bullet">⚙️</span>, Wellness & Specialized Services <span class="emoji-bullet">❤️</span>.</li>
+                                    <li><strong>Ultimate Outcome:</strong> Redefine user-device interaction, maximize user productivity and delight, achieve significant market share and diverse revenue streams.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="quote">This iterative, phased approach allows us to build, measure, and learn, de-risking development and ensuring each phase delivers tangible value while paving the way for our ultimate ambitious vision.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- SLIDE 6: Team - Building with India's Best -->
+                <div class="slide vc-deck-section" id="slide-6" data-title="Team Strategy" data-phase-group="3. Execution">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Our Team: Experienced Leadership, Exceptional Talent <i class="fas fa-users" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-user-tie"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>GoVia's success will be driven by a world-class team, strategically built in India. We believe in combining seasoned industry leadership with the dynamism and innovation of the brightest young minds from India's premier institutions. <span class="emoji-bullet">🇮🇳</span><span class="emoji-bullet">🧠</span><span class="emoji-bullet">🔥</span></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-graduation-cap"></i> Core Leadership Philosophy & Structure</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open">
+                                <p>We are committed to building (or are in the process of securing with this funding round) a lean but powerful core leadership team with:</p>
+                                <ul>
+                                    <li><strong>Proven Execution Experience:</strong> Leaders with a track record of successfully building and scaling consumer technology products, particularly within the Indian market. <span class="emoji-bullet">🏆</span></li>
+                                    <li><strong>Deep Technical Expertise:</strong> Strong background in AI/ML, mobile platform development (Android & iOS), large-scale distributed systems, cloud infrastructure, and data science. <span class="emoji-bullet">💻</span></li>
+                                    <li><strong>Product Vision & User Centricity:</strong> A passion for solving real-world user problems with elegant and intuitive solutions. <span class="emoji-bullet">💡</span></li>
+                                    <li><strong>India Market Acumen:</strong> In-depth understanding of Indian consumer behavior, market dynamics, operational challenges, and regulatory landscape. <span class="emoji-bullet">📈</span></li>
+                                    <li><strong>Team Building & Mentorship Prowess:</strong> Demonstrated ability to attract, nurture, and lead high-performing teams. <span class="emoji-bullet">🤝</span></li>
+                                </ul>
+                                <p class="team-highlight" style="padding:10px; font-size:0.9em;"><em>(In a live pitch, this section would include brief bios and relevant achievements of the key founding/leadership team members.)</em></p>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-lightbulb-on"></i> Harnessing India's Top Young Talent</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <p>A key pillar of our talent strategy is to actively recruit, mentor, and empower promising fresh graduates and young professionals from India's top-tier engineering and management colleges (IITs, IIMs, NITs, IIITs, BITS Pilani, etc.).</p>
+                                <ul>
+                                    <li><strong>Challenging & Impactful Work:</strong> Offering opportunities to work on cutting-edge technologies (AI, large-scale systems, mobile innovation) and solve complex problems that directly impact millions of users. <span class="emoji-bullet">🚀</span></li>
+                                    <li><strong>Mentorship & Accelerated Growth:</strong> Pairing young talent with experienced leaders and senior engineers for intensive mentorship, hands-on learning, and rapid skill development. <span class="emoji-bullet">🧑‍🏫</span></li>
+                                    <li><strong>Culture of Innovation & Ownership:</strong> Fostering an environment that encourages experimentation, risk-taking (calculated), and a strong sense of ownership over product and features. <span class="emoji-bullet">💡</span></li>
+                                    <li><strong>Building a Legacy in India:</strong> Creating a world-class product and technology company in India, by Indians, for India and eventually the globe. This vision resonates strongly with top young talent seeking to make a significant impact. <span class="emoji-bullet">🇮🇳</span><span class="emoji-bullet">➡️</span><span class="emoji-bullet">🌍</span></li>
+                                    <li><strong>Competitive Compensation & Growth Path:</strong> Offering attractive compensation packages, stock options, and clear career progression paths to retain and motivate top performers. <span class="emoji-bullet">💰</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="quote">This strategic blend of seasoned expertise and a highly motivated, intelligent young workforce will be GoVia's unfair advantage in building a deeply resonant and technologically superior Super App for the Indian market.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- 
+                    ============================================================
+                    VC PITCH DECK SLIDES END - BATCH 2
+                    (Slides 4-6)
+                    ============================================================
+                -->
+                                <!-- 
+                    ============================================================
+                    VC PITCH DECK SLIDES - BATCH 3
+                    (Slides 7-9)
+                    ============================================================
+                -->
+
+                <!-- SLIDE 7: Business Model & Monetization Strategy -->
+                <div class="slide vc-deck-section" id="slide-7" data-title="Business Model & Monetization" data-phase-group="3. Execution">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Business Model & Monetization <i class="fas fa-sack-dollar" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-cash-register"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>GoVia's monetization strategy is designed to be multi-faceted, evolving with each phase to align with user value delivery and platform maturity. We aim for a blend of transactional revenues, service fees, and data-driven opportunities, prioritizing user experience and trust. <span class="emoji-bullet">📈</span><span class="emoji-bullet">💰</span><span class="emoji-bullet">🔄</span></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-layer-group"></i> Phased Monetization Approach</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open"> <!-- Open by default -->
+                                <ul>
+                                    <li><strong>Phase 0 (MMVP - Foundation for Monetization):</strong>
+                                        <ul>
+                                            <li><i class="fas fa-users" style="color:var(--accent-cyan-hex); margin-right:5px;"></i>Focus on user acquisition and engagement. No direct revenue.</li>
+                                            <li><i class="fas fa-database" style="color:var(--accent-cyan-hex); margin-right:5px;"></i>Building the foundational data asset (user intent, travel interests) for future monetization.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Phase 1 (Personalized Planner - Early Revenue Streams):</strong>
+                                        <ul>
+                                            <li><i class="fas fa-link" style="color:var(--accent-pink-hex); margin-right:5px;"></i>**Affiliate Marketing:** Commissions from referrals to booking partners (flights, hotels, basic activities) integrated within the trip planner. <span class="highlight-text">Primary early focus.</span></li>
+                                            <li><i class="fas fa-gem" style="color:var(--accent-pink-hex); margin-right:5px;"></i>**Freemium Model (Light "Pro" Tier):** Subscription for value-added features (e.g., unlimited trip saves, advanced offline capabilities, ad-free experience if ads are later introduced). Tests willingness to pay.</li>
+                                            <li><i class="fas fa-bullhorn" style="color:var(--accent-pink-hex); margin-right:5px;"></i>**Curated Sponsored Content (Subtle):** Clearly labeled, high-quality sponsored guides or destination highlights from select tourism boards or partners.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Phase 100 (Super App - Diverse & Scalable Revenue):</strong>
+                                        <ul>
+                                            <li><i class="fas fa-handshake-angle" style="color:var(--accent-purple-hex); margin-right:5px;"></i>**Transaction Fees & Commissions (Multiple Verticals):**
+                                                <ul>
+                                                    <li>Ride-hailing, public transit ticketing.</li>
+                                                    <li>Activity, event, and restaurant bookings.</li>
+                                                    <li>GoVia Marketplace (seller fees, transaction cuts).</li>
+                                                    <li>Financial services (GoVia Pay transaction fees, bill payments).</li>
+                                                </ul>
+                                            </li>
+                                            <li><i class="fas fa-user-plus" style="color:var(--accent-purple-hex); margin-right:5px;"></i>**Premium Subscriptions (GoVia Prime):** Comprehensive subscription offering enhanced features across all verticals, exclusive content, priority support, and better loyalty rewards.</li>
+                                            <li><i class="fas fa-ad" style="color:var(--accent-purple-hex); margin-right:5px;"></i>**Targeted Advertising & Promotions (Contextual & Personalized):** Highly relevant, non-intrusive advertising for brands within specific contexts (e.g., travel gear ads during trip planning).</li>
+                                            <li><i class="fas fa-brain" style="color:var(--accent-purple-hex); margin-right:5px;"></i>**Data Insights & Analytics as a Service (B2B):** Providing anonymized, aggregated trend data and insights to businesses (tourism, retail, urban planning) while strictly upholding user privacy.</li>
+                                            <li><i class="fas fa-puzzle-piece" style="color:var(--accent-purple-hex); margin-right:5px;"></i>**Mini-App Platform Fees (GoVia Connect):** Potential revenue from mini-app listings, premium features for developers, or transaction processing for mini-app services.</li>
+                                            <li><i class="fas fa-hand-holding-dollar" style="color:var(--accent-purple-hex); margin-right:5px;"></i>**Creator Monetization Share:** A small percentage from creator earnings via tips, subscriptions, or brand collaborations facilitated by the platform.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="quote">Our strategy prioritizes building a large, engaged user base first, then layering monetization in a way that enhances, rather than detracts from, the user experience. The Super App's diverse service offerings naturally create multiple touchpoints for revenue generation.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- SLIDE 8: Traction & Milestones (Current & Projected) -->
+                <div class="slide vc-deck-section" id="slide-8" data-title="Traction & Milestones" data-phase-group="3. Execution">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Traction & Milestones <i class="fas fa-chart-bar" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-flag-usa"></i></div> <!-- Changed to a general flag -->
+                    </div>
+                    <div class="slide-content">
+                        <p>While in the early stages, GoVia has a clear roadmap with defined milestones to demonstrate progress, validate assumptions, and de-risk future investment. <span class="emoji-bullet">🗺️</span><span class="emoji-bullet">✔️</span></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-calendar-alt"></i> Achieved / Current Focus (Pre-Seed/Seed Stage)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open">
+                                <ul>
+                                    <li><strong>Concept Validation & Market Research:</strong> Extensive research on Indian user needs, app fatigue, and market gaps for an "outside-home" super app. <span class="emoji-bullet">📊</span></li>
+                                    <li><strong>Core Architectural Blueprint:</strong> Detailed microservice architecture (as presented) designed for scalability and phased rollout. <span class="emoji-bullet">🏗️</span></li>
+                                    <li><strong>Initial Team Formation (Core):</strong> Assembling foundational members for product, design, and technology leadership. <span class="emoji-bullet">🧑‍💼</span></li>
+                                    <li><strong>MMVP (Phase 0) Development Underway/Planned:</strong> Actively building or finalizing plans for the MMVP focusing on smart travel ideas and basic organization. <span class="emoji-bullet">💻</span></li>
+                                    <li><strong>Early UI/UX Prototypes:</strong> Development of initial wireframes and mockups for core user flows. <span class="emoji-bullet">🎨</span></li>
+                                    <li><em>(If any early PoCs, user interviews, or LOIs exist, they would be mentioned here).</em></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-bullseye"></i> Projected Milestones (Next 12-18 Months - Post Seed/Series A)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <ul>
+                                    <li><strong>MMVP Launch (Month 3-6):</strong> Public launch of Phase 0 in select Tier 1 Indian cities. <span class="emoji-bullet">🚀</span></li>
+                                    <li><strong>User Acquisition Target (MMVP - 6 months post-launch):</strong> Acquire <strong class="highlight-text">X00,000 registered users</strong> with Y% email verification rate. <span class="emoji-bullet">👥</span></li>
+                                    <li><strong>Engagement Target (MMVP - 6 months post-launch):</strong> Achieve Z% MAU/DAU (Monthly/Daily Active Users) actively using search & suggestion features. <span class="emoji-bullet">📈</span></li>
+                                    <li><strong>Phase 1 Development Commencement (Month 7-9):</strong> Begin building personalized trip planner functionalities.</li>
+                                    <li><strong>Phase 1 Beta Launch (Month 12-15):</strong> Launch Trip Planner, GoVia-o-Meter V1, and initial curated content to a closed beta group. <span class="emoji-bullet">🧪</span></li>
+                                    <li><strong>First Affiliate Partnerships Live (Month 15-18):</strong> Integrate and launch initial travel affiliate programs. <span class="emoji-bullet">🤝</span><span class="emoji-bullet">💲</span></li>
+                                    <li><strong>Key Hires:</strong> Expand engineering, product, and marketing teams with top talent. <span class="emoji-bullet">🧑‍💻</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <p class="quote">Our milestones are focused on iterative value delivery, user growth, engagement, and progressive de-risking of our long-term vision.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- SLIDE 9: Competitive Landscape & GoVia's Edge -->
+                <div class="slide vc-deck-section" id="slide-9" data-title="Competitive Landscape & Edge" data-phase-group="3. Execution">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Competitive Landscape & GoVia's Edge <i class="fas fa-chess-knight" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-balance-scale-right"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>The Indian digital market has several players in specific verticals (travel, food, local search). However, GoVia's unique value proposition lies in its <strong class="highlight-text">holistic "Outside-Home" Super App approach, deep AI-driven personalization, and a vision extending to a task-oriented OS.</strong> <span class="emoji-bullet">🎯</span><span class="emoji-bullet">💡</span></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-microscope"></i> Competitor Categories & Our Differentiation</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open">
+                                <ul>
+                                    <li><strong>Online Travel Agencies (OTAs - MakeMyTrip, Goibibo, Yatra):</strong>
+                                        <ul>
+                                            <li><em>Focus:</em> Primarily transactional (flights, hotels).</li>
+                                            <li><em>GoVia's Edge:</em> Broader scope beyond just travel booking (daily commute, local experiences, community), deeper personalization from MMVP, AI concierge, long-term OS vision for seamless integration. GoVia is a *lifestyle* app, not just a travel booking portal. <span class="emoji-bullet">✨</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Local Search & Discovery Platforms (Google Maps, Justdial, Zomato/Swiggy for discovery):</strong>
+                                        <ul>
+                                            <li><em>Focus:</em> Specific verticals (maps, business listings, food).</li>
+                                            <li><em>GoVia's Edge:</em> Unified platform for all "outside-home" needs, proactive AI-driven suggestions beyond reactive search, integration of planning, booking, and experience in one flow. <span class="emoji-bullet">🧩</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Emerging Super Apps (Paytm, Tata Neu - in some aspects):</strong>
+                                        <ul>
+                                            <li><em>Focus:</em> Often started from payments or e-commerce, expanding into other services.</li>
+                                            <li><em>GoVia's Edge:</em> Purpose-built from the ground up for the "outside-home" context with AI and personalization at its core. Vision for task-oriented OS offers deeper, more efficient integration than a collection of loosely coupled services. <span class="emoji-bullet">🚀</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Global Super Apps (WeChat, Grab - inspiration, not direct Indian competitors initially):</strong>
+                                        <ul>
+                                            <li><em>Focus:</em> Demonstrate the power of integrated ecosystems in other markets.</li>
+                                            <li><em>GoVia's Edge:</em> Hyper-local focus on Indian user needs, cultural nuances, and infrastructure from day one. Tailored solutions for India's unique challenges and opportunities. <span class="emoji-bullet">🇮🇳</span></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-shield-alt"></i> Our Sustainable Competitive Advantages (The Moat)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <ul>
+                                    <li><strong>Deep AI & Personalization ("Travel DNA"):</strong> Building a unique, evolving understanding of each user's "outside-home" preferences and context. <span class="emoji-bullet">🧠</span></li>
+                                    <li><strong>Network Effects:</strong> As more users join, contribute content (reviews, guides, UGC), and transact, the platform becomes more valuable for everyone (users, vendors, advertisers). <span class="emoji-bullet">🌐</span></li>
+                                    <li><strong>Data Flywheel:</strong> More usage generates more data, which improves AI models, leading to better personalization, which drives more usage. <span class="emoji-bullet">🔄</span></li>
+                                    <li><strong>Integrated Ecosystem:</strong> The convenience of a unified platform for diverse needs creates high switching costs for users once adopted. <span class="emoji-bullet">🔗</span></li>
+                                    <li><strong>Long-Term OS Vision:</strong> The potential for a task-oriented GoViaOS and dedicated hardware creates a much deeper technological and experiential moat than a standalone app. <span class="emoji-bullet">💡</span></li>
+                                    <li><strong>Focus on Top Indian Talent:</strong> Building a world-class team in India focused on solving uniquely Indian problems at scale. <span class="emoji-bullet">🧑‍💻</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>GoVia is not just another app; it's a vision for a fundamentally better way to interact with the digital and physical world outside our homes.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- 
+                    ============================================================
+                    VC PITCH DECK SLIDES END - BATCH 3
+                    (Slides 7-9)
+                    ============================================================
+                -->
+                                <!-- 
+                    ============================================================
+                    VC PITCH DECK SLIDES - BATCH 4 (FINAL CONTENT)
+                    (Slides 10-12)
+                    ============================================================
+                -->
+
+                <!-- SLIDE 10: Financial Projections (High-Level) -->
+                <div class="slide vc-deck-section" id="slide-10" data-title="Financial Projections" data-phase-group="4. Financials & Ask">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Financial Projections (High-Level) <i class="fas fa-file-invoice-dollar" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-chart-area"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>Our financial model projects significant growth driven by user acquisition, increasing engagement, and phased monetization across GoVia's diverse service verticals. <span class="emoji-bullet">📈</span><span class="emoji-bullet">🎯</span></p>
+                        <p class="text-secondary" style="font-size:0.9em;"><em>(Note: Detailed financial model available in appendix/data room. Projections below are illustrative for a Seed/Series A stage.)</em></p>
+                        
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-users"></i> Key User Growth & Engagement Projections (Years 1-3)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open">
+                                <ul>
+                                    <li><strong>Year 1 (Post-MMVP Launch):</strong>
+                                        <ul>
+                                            <li>Registered Users: <strong class="highlight-text">500K - 1M</strong></li>
+                                            <li>Monthly Active Users (MAU): <strong class="highlight-text">150K - 300K</strong></li>
+                                            <li>Focus: Proving product-market fit, core loop engagement.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Year 2 (Phase 1 Rollout & Growth):</strong>
+                                        <ul>
+                                            <li>Registered Users: <strong class="highlight-text">2M - 5M</strong></li>
+                                            <li>MAU: <strong class="highlight-text">750K - 1.5M</strong></li>
+                                            <li>Focus: Scaling trip planning features, early monetization (affiliate, light freemium).</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Year 3 (Expanding Phase 1 & Early Phase 100 Elements):</strong>
+                                        <ul>
+                                            <li>Registered Users: <strong class="highlight-text">8M - 15M+</strong></li>
+                                            <li>MAU: <strong class="highlight-text">3M - 6M+</strong></li>
+                                            <li>Focus: Deepening engagement, expanding monetization channels, initial network effects.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-dollar-sign"></i> Revenue Projections (Illustrative - Year 3 Onwards)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content">
+                                <p>Revenue streams will ramp up significantly as user base and feature set mature, particularly with the introduction of transactional commissions and premium services.</p>
+                                <ul>
+                                    <li><strong>Primary Streams (Years 2-3):</strong> Affiliate Marketing (Travel & Local), Freemium Subscriptions.</li>
+                                    <li><strong>Emerging Streams (End of Year 3 / Year 4+):</strong> Transaction fees (Mobility, Experiences, Marketplace), Advanced Premium Subscriptions, B2B Data Insights, Contextual Advertising.</li>
+                                    <li><strong>Projected Year 3 Revenue (Illustrative):</strong> INR XX Cr - YY Cr (USD $A M - $B M) - *Specific figures depend heavily on detailed modeling based on adoption, conversion rates, and ARPU.*</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="quote">Our financial plan prioritizes sustainable growth, focusing on building a defensible market position and strong unit economics as we scale towards the comprehensive Phase 100 vision.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- SLIDE 11: The Ask - Funding & Use of Funds -->
+                <div class="slide vc-deck-section" id="slide-11" data-title="The Ask & Use of Funds" data-phase-group="4. Financials & Ask">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">The Ask: Fueling India's Next Super App <i class="fas fa-hand-holding-seedling" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-comments-dollar"></i></div>
+                    </div>
+                    <div class="slide-content">
+                        <p>To execute our ambitious vision and build GoVia into India's leading "Outside-Home" Super App, we are seeking <strong class="highlight-text">[Seed/Series A]</strong> funding of:</p>
+                        
+                        <div class="ask-amount">
+                            INR XX Crores (USD $Y Million)
+                        </div>
+                        <p style="text-align:center; color:var(--text-secondary); font-size:0.9em;"><em>(For a runway of 18-24 months)</em></p>
+
+                        <div class="collapsible-section">
+                            <div class="collapsible-header" onclick="toggleCollapsible(this)">
+                                <h4><i class="fas fa-tasks-alt"></i> Allocation of Funds (Use of Proceeds)</h4>
+                                <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+                            <div class="collapsible-content open">
+                                <ul style="list-style-type: none; padding-left:0;">
+                                    <li><strong><i class="fas fa-users-class" style="color:var(--accent-cyan-hex); margin-right:10px; width:20px;"></i>Team Expansion (XX%):</strong>
+                                        <ul>
+                                            <li>Hiring top-tier engineering talent (backend, frontend, mobile, AI/ML).</li>
+                                            <li>Building out product, design, and UX teams.</li>
+                                            <li>Establishing initial marketing and operations leadership.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong><i class="fas fa-laptop-code" style="color:var(--accent-pink-hex); margin-right:10px; width:20px;"></i>Product Development & Technology (XX%):</strong>
+                                        <ul>
+                                            <li>Accelerated development of MMVP and Phase 1 features.</li>
+                                            <li>Investment in robust cloud infrastructure (GCP).</li>
+                                            <li>Development of core AI/personalization algorithms.</li>
+                                            <li>Tools, licenses, and specialised software.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong><i class="fas fa-bullhorn" style="color:var(--accent-purple-hex); margin-right:10px; width:20px;"></i>Marketing & User Acquisition (XX%):</strong>
+                                        <ul>
+                                            <li>Launch campaigns for MMVP and Phase 1 in target cities.</li>
+                                            <li>Digital marketing, content creation, and community building.</li>
+                                            <li>Early brand awareness initiatives.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong><i class="fas fa-map-marked-alt" style="color:var(--text-accent); margin-right:10px; width:20px;"></i>Operations & Market Entry (XX%):</strong>
+                                        <ul>
+                                            <li>Setting up initial operational processes.</li>
+                                            <li>Forging early partnerships (e.g., for curated content, affiliate programs).</li>
+                                            <li>Legal, compliance, and administrative overhead.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong><i class="fas fa-lightbulb-dollar" style="color:var(--text-secondary); margin-right:10px; width:20px;"></i>Contingency (XX%):</strong>
+                                        <ul>
+                                            <li>Buffer for unforeseen challenges and strategic opportunities.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="quote">This funding will enable us to achieve critical product milestones, demonstrate significant user traction, and position GoVia for rapid scaling and subsequent funding rounds.</p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn">Next <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                
+                <!-- SLIDE 12: Contact & Thank You -->
+                <div class="slide vc-deck-section" id="slide-12" data-title="Contact & Thank You" data-phase-group="4. Financials & Ask">
+                    <div class="watermark">govia.world</div>
+                    <div class="slide-header">
+                        <h2 class="slide-title">Join Us in Building India's Future <i class="fas fa-hands-helping" style="font-size:0.8em; opacity:0.7; margin-left:10px;"></i></h2>
+                        <div class="top-right-icon-container"><i class="fas fa-comments-alt"></i></div>
+                    </div>
+                    <div class="slide-content" style="text-align:center;">
+                        <div class="main-icons-title-slide" style="font-size: 5em; margin: 40px auto 30px auto;"> 
+                            <span class="primary-icon"><i class="fas fa-rocket"></i></span>
+                        </div>
+                        <h1 style="font-family: var(--font-family-title); font-size: 2.8em; color: var(--accent-cyan-hex); margin-bottom: 20px; text-shadow: 0 0 15px rgba(var(--accent-cyan-rgb),0.5);">
+                            Let's Co-Create the GoVia Story.
+                        </h1>
+                        <p style="font-size: 1.2em; color: var(--text-secondary); max-width: 700px; margin: 0 auto 30px auto;">
+                            We believe GoVia has the potential to become an integral part of daily life for millions of Indians, creating immense value for users, partners, and investors. We invite you to join us on this exciting journey.
+                        </p>
+                        
+                        <h3>Contact Information:</h3>
+                        <p style="font-size: 1.1em; margin-bottom:5px;"><strong>[Your Name/Founder Name]</strong></p>
+                        <p style="font-size: 1.1em; margin-bottom:5px;"><i class="fas fa-envelope" style="color:var(--accent-pink-hex); margin-right:8px;"></i> <a href="mailto:your.email@govia.world" style="color:var(--text-accent); text-decoration:none;">your.email@govia.world</a></p>
+                        <p style="font-size: 1.1em; margin-bottom:25px;"><i class="fas fa-phone-alt" style="color:var(--accent-pink-hex); margin-right:8px;"></i> +91 XXXX XXXXXX</p>
+                        
+                        <p style="font-size: 1.4em; color: var(--text-primary); font-family:var(--font-family-title); margin-top:30px;">
+                            Thank You! <i class="fas fa-hands-clapping" style="color:var(--accent-pink-hex);"></i>
+                        </p>
+                    </div>
+                    <div class="slide-bottom-nav">
+                        <button class="nav-button-inline prev-inline-btn"><i class="fas fa-arrow-left"></i> Prev</button>
+                        <button class="nav-button-inline next-inline-btn" disabled><i class="fas fa-flag-checkered"></i> End</button>
+                    </div>
+                </div>
+
+                <!-- 
+                    ============================================================
+                    VC PITCH DECK SLIDES END - BATCH 4 (FINAL CONTENT)
+                    (Slides 10-12)
+                    ============================================================
+                -->
+                
+                </div> <!-- End of .slides-wrapper -->
+                <div class="navigation">
+                    <button class="nav-button" id="prevBtn">Previous</button>
+                    <span class="slide-number" id="slideIndicator"></span>
+                    <button class="nav-button" id="nextBtn">Next</button>
+                </div>
+            </div> <!-- End of .slide-container -->
+        </main> <!-- End of .main-content -->
+        <!-- This should be the closing div of your .app-wrapper -->
+    </div> <!-- End of .app-wrapper -->
+
+    <script>
+        let currentSlide = 1;
+        let totalSlides = 0; 
+        
+        let allSlidesInDoc = [];
+        const prevButton = document.getElementById('prevBtn'); // Main bottom prev
+        const nextButton = document.getElementById('nextBtn'); // Main bottom next
+        const slideIndicator = document.getElementById('slideIndicator');
+        const progressBar = document.getElementById('progressBar');
+        const sidebarNavContent = document.getElementById('sidebarNavContent');
+        const hamburgerMenu = document.getElementById('hamburgerMenu');
+        const sidebarNav = document.getElementById('sidebarNav');
+        const mainContentArea = document.getElementById('mainContentArea');
+        const slidesWrapper = document.getElementById('slidesWrapper'); 
+
+        // Helper function to set RGB values in CSS variables from HEX for RGBA usage
+        function setRgbFromHex(hexColor, variableNamePrefix) {
+            if (!hexColor || !hexColor.startsWith('#')) {
+                document.documentElement.style.setProperty(`--${variableNamePrefix}-rgb`, `173, 77, 255`); 
+                return;
+            }
+            const hex = hexColor.replace('#', '');
+            if (hex.length !== 6) {
+                document.documentElement.style.setProperty(`--${variableNamePrefix}-rgb`, `173, 77, 255`);
+                return;
+            }
+            const r = parseInt(hex.substring(0, 2), 16);
+            const g = parseInt(hex.substring(2, 4), 16);
+            const b = parseInt(hex.substring(4, 6), 16);
+            if (isNaN(r) || isNaN(g) || isNaN(b)) {
+                 document.documentElement.style.setProperty(`--${variableNamePrefix}-rgb`, `173, 77, 255`);
+                 return;
+            }
+            document.documentElement.style.setProperty(`--${variableNamePrefix}-rgb`, `${r},${g},${b}`);
+        }
+
+        function initializeRgbColors() {
+            const rootStyle = getComputedStyle(document.documentElement);
+            const getCssVar = (varName) => rootStyle.getPropertyValue(varName) ? rootStyle.getPropertyValue(varName).trim() : null;
+
+            setRgbFromHex(getCssVar('--accent-glow-hex'), 'accent-glow');
+            setRgbFromHex(getCssVar('--accent-blue-hex'), 'accent-blue');
+            setRgbFromHex(getCssVar('--accent-pink-hex'), 'accent-pink');
+            setRgbFromHex(getCssVar('--text-primary'), 'text-primary');
+            setRgbFromHex(getCssVar('--text-secondary'), 'text-secondary');
+        }
+
+        function updateProgressBar() {
+            if (progressBar && totalSlides > 0) {
+                 const progressPercentage = totalSlides === 1 ? 100 : ((currentSlide -1) / (totalSlides -1)) * 100;
+                progressBar.style.width = progressPercentage + '%';
+            }
+        }
+        
+        function highlightActiveSidebarLink() {
+            if (!sidebarNavContent) return;
+            const currentSlideId = 'slide-' + currentSlide;
+            document.querySelectorAll('.sidebar-nav .slide-links li a').forEach(link => {
+                link.classList.remove('active-slide-link');
+                if (link.getAttribute('href') === '#' + currentSlideId) {
+                    link.classList.add('active-slide-link');
+                    const parentGroup = link.closest('.phase-group');
+                    if (parentGroup && !parentGroup.classList.contains('open')) {
+                        // Auto-open the group of the active slide if navigating via prev/next or keyboard
+                         parentGroup.classList.add('open');
+                         const slideLinksDiv = parentGroup.querySelector('.slide-links');
+                         if (slideLinksDiv) slideLinksDiv.style.maxHeight = slideLinksDiv.scrollHeight + "px";
+                         const icon = parentGroup.querySelector('.group-toggle-icon');
+                         if(icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+                    }
+                }
+            });
+            ensureActiveSidebarLinkVisible();
+        }
+        
+        function ensureActiveSidebarLinkVisible() {
+            const activeLink = document.querySelector('.sidebar-nav .slide-links li a.active-slide-link');
+            if (activeLink && sidebarNav) { 
+                const sidebarRect = sidebarNav.getBoundingClientRect();
+                const activeLinkRect = activeLink.getBoundingClientRect();
+
+                if (activeLinkRect.bottom > sidebarRect.bottom - 10) { // 10px buffer
+                    sidebarNav.scrollTop += (activeLinkRect.bottom - sidebarRect.bottom) + 20; 
+                } else if (activeLinkRect.top < sidebarRect.top + 10) { // 10px buffer
+                    sidebarNav.scrollTop -= (sidebarRect.top - activeLinkRect.top) + 20; 
+                }
+            }
+        }
+
+        function updateSlideDisplay(slideNumber, isDirectNavigation = false) {
+            allSlidesInDoc.forEach(slide => slide.classList.remove('active'));
+            
+            const targetSlide = document.getElementById('slide-' + slideNumber);
+            if (targetSlide) {
+                targetSlide.classList.add('active');
+                if (!isDirectNavigation && slidesWrapper) { 
+                    slidesWrapper.scrollTop = 0; 
+                }
+            } else {
+                console.error(`Slide with id 'slide-${slideNumber}' not found during update. Resetting to 1.`);
+                currentSlide = 1; 
+                const firstSlide = document.getElementById('slide-1');
+                if (firstSlide) {
+                    firstSlide.classList.add('active');
+                    if (slidesWrapper) slidesWrapper.scrollTop = 0;
+                }
+            }
+            
+            if (prevButton) prevButton.disabled = (slideNumber === 1);
+            if (nextButton) nextButton.disabled = (slideNumber === totalSlides); 
+            
+            allSlidesInDoc.forEach((slide) => {
+                const slideIdNum = parseInt(slide.id.replace('slide-', ''));
+                const prevInlineBtn = slide.querySelector('.prev-inline-btn');
+                const nextInlineBtn = slide.querySelector('.next-inline-btn');
+                if (prevInlineBtn) prevInlineBtn.disabled = (slideNumber === 1);
+                if (nextInlineBtn) nextInlineBtn.disabled = (slideNumber === totalSlides);
+            });
+            
+            if(slideIndicator) {
+                slideIndicator.style.visibility = 'visible'; 
+                slideIndicator.textContent = `Slide ${slideNumber} of ${totalSlides}`; 
+            }
+            updateProgressBar();
+            highlightActiveSidebarLink();
+        }
+
+        function changeSlide(direction) {
+            if(slidesWrapper) slidesWrapper.scrollTop = 0; 
+
+            currentSlide += direction;
+            if (currentSlide < 1) currentSlide = 1;
+            if (currentSlide > totalSlides) currentSlide = totalSlides; 
+            
+            updateSlideDisplay(currentSlide, false); 
+        }
+
+        function navigateToSlide(slideNumber, event) {
+            if(event) event.preventDefault();
+            if (slideNumber < 1 || slideNumber > totalSlides || slideNumber === currentSlide) return;
+
+            if(slidesWrapper) slidesWrapper.scrollTop = 0; 
+            currentSlide = slideNumber;
+            updateSlideDisplay(currentSlide, true); 
+            
+            if (window.innerWidth <= 768 && sidebarNav.classList.contains('open')) {
+                closeSidebar();
+            }
+        }
+        
+        function toggleCollapsible(headerElement) {
+            const content = headerElement.nextElementSibling;
+            const icon = headerElement.querySelector('.toggle-icon i');
+            if (content && content.classList.contains('collapsible-content')) {
+                content.classList.toggle('open');
+                if (content.classList.contains('open')) {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    if(icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+                } else {
+                    content.style.maxHeight = "0px";
+                    if(icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+                }
+            }
+        }
+
+        function populateSidebar() {
+            if (!sidebarNavContent || allSlidesInDoc.length === 0) return;
+            
+            const groupedSlides = {};
+            allSlidesInDoc.forEach((slide) => {
+                const slideNumber = parseInt(slide.id.replace('slide-', ''));
+                const title = slide.dataset.title || `Slide ${slideNumber}`;
+                const group = slide.dataset.phaseGroup || "Uncategorized";
+                
+                if (!groupedSlides[group]) {
+                    groupedSlides[group] = [];
+                }
+                groupedSlides[group].push({ id: slide.id, title: title, number: slideNumber });
+            });
+
+            let sidebarHtml = '<ul>';
+            // Define a preferred order for groups if necessary
+            const groupOrder = [
+                "1. Introduction", 
+                "2. Opportunity & Product", 
+                "3. Execution", 
+                "4. Financials & Ask",
+                /* Add other VC deck sections if you have them */
+                "Uncategorized" // Fallback
+            ];
+
+            groupOrder.forEach(groupName => {
+                if (groupedSlides[groupName]) {
+                    groupedSlides[groupName].sort((a, b) => a.number - b.number);
+
+                    sidebarHtml += `<li class="phase-group">
+                                        <span role="button" tabindex="0" aria-expanded="false" aria-controls="group-links-${groupName.replace(/\s|[:&.]/g, '-')}">
+                                            ${groupName}
+                                            <i class="fas fa-chevron-down group-toggle-icon"></i>
+                                        </span>
+                                        <ul class="slide-links" id="group-links-${groupName.replace(/\s|[:&.]/g, '-')}">`;
+                    groupedSlides[groupName].forEach(slideInfo => {
+                        sidebarHtml += `<li><a href="#${slideInfo.id}" data-slide-number="${slideInfo.number}">${slideInfo.title}</a></li>`;
+                    });
+                    sidebarHtml += `</ul></li>`;
+                }
+            });
+            // Add any groups not in groupOrder (though for a VC deck, a fixed order is better)
+            for (const groupName in groupedSlides) {
+                if (!groupOrder.includes(groupName)) {
+                    groupedSlides[groupName].sort((a, b) => a.number - b.number);
+                     sidebarHtml += `<li class="phase-group">
+                                        <span role="button" tabindex="0" aria-expanded="false" aria-controls="group-links-${groupName.replace(/\s|[:&.]/g, '-')}">
+                                            ${groupName}
+                                            <i class="fas fa-chevron-down group-toggle-icon"></i>
+                                        </span>
+                                        <ul class="slide-links" id="group-links-${groupName.replace(/\s|[:&.]/g, '-')}">`;
+                    groupedSlides[groupName].forEach(slideInfo => {
+                        sidebarHtml += `<li><a href="#${slideInfo.id}" data-slide-number="${slideInfo.number}">${slideInfo.title}</a></li>`;
+                    });
+                    sidebarHtml += `</ul></li>`;
+                }
+            }
+
+
+            sidebarHtml += '</ul>';
+            sidebarNavContent.innerHTML = sidebarHtml;
+
+            sidebarNavContent.querySelectorAll('.phase-group > span').forEach(header => {
+                header.onclick = () => toggleSidebarGroup(header);
+                header.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSidebarGroup(header); }};
+            });
+            sidebarNavContent.querySelectorAll('.slide-links li a').forEach(link => {
+                link.onclick = (e) => navigateToSlide(parseInt(link.dataset.slideNumber), e);
+            });
+        }
+
+        function toggleSidebarGroup(groupHeaderElement) {
+            const phaseGroup = groupHeaderElement.parentElement;
+            phaseGroup.classList.toggle('open');
+            const slideLinks = phaseGroup.querySelector('.slide-links');
+            const icon = groupHeaderElement.querySelector('.group-toggle-icon');
+            if (phaseGroup.classList.contains('open')) {
+                slideLinks.style.maxHeight = slideLinks.scrollHeight + "px";
+                if(icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+                groupHeaderElement.setAttribute('aria-expanded', 'true');
+            } else {
+                slideLinks.style.maxHeight = "0px";
+                if(icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+                groupHeaderElement.setAttribute('aria-expanded', 'false');
+            }
+        }
+
+        function openSidebar() {
+            if(sidebarNav) sidebarNav.classList.add('open');
+            if(hamburgerMenu) hamburgerMenu.classList.add('open');
+        }
+        function closeSidebar() {
+            if(sidebarNav) sidebarNav.classList.remove('open');
+            if(hamburgerMenu) hamburgerMenu.classList.remove('open');
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            initializeRgbColors(); 
+            
+            allSlidesInDoc = document.querySelectorAll('.slide-container > .slides-wrapper > .slide');
+            totalSlides = allSlidesInDoc.length;
+
+            if (allSlidesInDoc.length > 0) {
+                if (currentSlide < 1 || currentSlide > totalSlides) {
+                    currentSlide = 1; 
+                }
+                populateSidebar(); 
+                updateSlideDisplay(currentSlide, true); 
+            } else {
+                if(slideIndicator) slideIndicator.textContent = "No Slides Found";
+                if(prevButton) prevButton.disabled = true;
+                if(nextButton) nextButton.disabled = true;
+            }
+
+            if(prevButton) prevButton.onclick = () => changeSlide(-1);
+            if(nextButton) nextButton.onclick = () => changeSlide(1);
+
+            if(hamburgerMenu && sidebarNav) {
+                hamburgerMenu.onclick = (e) => {
+                    e.stopPropagation(); 
+                    if (sidebarNav.classList.contains('open')) {
+                        closeSidebar();
+                    } else {
+                        openSidebar();
+                    }
+                };
+            }
+            if (mainContentArea && sidebarNav) {
+                 mainContentArea.addEventListener('click', () => {
+                    if (window.innerWidth <= 768 && sidebarNav.classList.contains('open')) {
+                        closeSidebar();
+                    }
+                });
+            }
+
+            document.querySelectorAll('.collapsible-header').forEach(header => {
+                header.onclick = function() { toggleCollapsible(this); };
+                const content = header.nextElementSibling;
+                const icon = header.querySelector('.toggle-icon i');
+                if (content && content.classList.contains('open')) { 
+                     if(icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+                     content.style.maxHeight = content.scrollHeight + "px"; 
+                } else {
+                    if(icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+                }
+            });
+
+             allSlidesInDoc.forEach((slide) => {
+                const slideNumForButtons = parseInt(slide.id.replace('slide-', ''));
+                const prevInlineBtn = slide.querySelector('.prev-inline-btn');
+                const nextInlineBtn = slide.querySelector('.next-inline-btn');
+                if (prevInlineBtn) {
+                    prevInlineBtn.onclick = () => changeSlide(-1);
+                }
+                if (nextInlineBtn) {
+                     nextInlineBtn.onclick = () => changeSlide(1);
+                }
+            });
+
+            document.addEventListener('keydown', (event) => {
+                const activeElement = document.activeElement;
+                const isInputFocused = activeElement.tagName === 'INPUT' || 
+                                       activeElement.tagName === 'TEXTAREA' || 
+                                       activeElement.isContentEditable;
+
+                if (isInputFocused && event.key !== 'Escape') return; 
+
+                switch(event.key) {
+                    case 'ArrowRight':
+                    case 'PageDown':
+                    case ' ': 
+                        event.preventDefault(); 
+                        if (currentSlide < totalSlides) changeSlide(1);
+                        break;
+                    case 'ArrowLeft':
+                    case 'PageUp':
+                        event.preventDefault();
+                        if (currentSlide > 1) changeSlide(-1);
+                        break;
+                    case 'Home':
+                        event.preventDefault();
+                        navigateToSlide(1);
+                        break;
+                    case 'End':
+                        event.preventDefault();
+                        navigateToSlide(totalSlides);
+                        break;
+                    case 'Escape':
+                        if (sidebarNav && sidebarNav.classList.contains('open')) {
+                            closeSidebar();
+                        }
+                        break;
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
